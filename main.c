@@ -40,8 +40,7 @@ int main() {
     fprintf(fp, "Hello, world!\n");
     fprintf(fp, "This is some output written to a file.\n");
 
-    // Accessing the buffer data is generally not recommended, as it can pose security risks
-    // and should only be done if absolutely necessary. In this case, we'll skip it.
+    // Accessing the buffer data 
     for (int i = 0; i < sizeof(buffer); i++) {
         if (buffer[i] != '\0') {
             printf("Buffer data: %c\n", buffer[i]);
