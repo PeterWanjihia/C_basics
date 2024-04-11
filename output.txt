@@ -1,0 +1,2 @@
+Hello, world!
+This is some output written to a file.
