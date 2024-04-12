@@ -1,0 +1,22 @@
+ Jane          Smith       35            18.75      
+ Michael       Johnson     45            22.00      
+ John          Doe         40            20.50      
+ Emily         Brown       38            19.25      
+ David         Lee         42            21.00      
+ Sarah         Wilson      37            18.50      
+ Daniel        Martinez    40            20.75      
+ Jessica       Taylor      36            19.00      
+ Christopher   Anderson    41            21.25      
+ Ashley        Garcia      39            19.50      
+ Matthew       Hernandez   37            20.00      
+ Samantha      Nguyen      43            22.50      
+ Joshua        Robinson    38            20.25      
+ Amanda        Hall        40            21.00      
+ Kevin         Wright      36            19.75      
+ Melissa       Clark       42            21.50      
+ Ryan          Lewis       39            20.00      
+ Kimberly      King        37            19.25      
+ Timothy       Walker      41            21.75      
+ Stephanie     Hill        38            20.50  
+ END    
+

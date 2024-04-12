@@ -1,2 +1,4 @@
-Hello, world!
-This is some output written to a file.
+7 numbers were entered
+The sum is 313
+The average is 44.71
+clear
