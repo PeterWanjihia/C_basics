@@ -115,3 +115,43 @@ Database Engine: Build a simple in-memory database engine that stores and retrie
 Custom File System: Develop a custom file system implementation that stores files and directories on a disk partition or virtual disk image. Practice managing file and directory metadata within buffers, and implement functions for file creation, deletion, reading, and writing.
 
 These projects will provide you with hands-on experience working with buffers in various contexts, helping you become more proficient at managing memory and manipulating data in your programs. Be sure to thoroughly test your implementations and handle edge cases and error conditions gracefully.
+
+
+Project: Web Log Analysis
+
+In this project, you will develop a program that analyzes web server log files to 
+extract useful information and statistics. Web servers typically generate log files that 
+record various details about each request made to the server, such as the client IP address, 
+requested resource, date and time, response status, and more.
+
+The project will involve the following steps:
+
+Downloading Web Server Log Files:
+Identify a source for web server log files, such as Apache or Nginx log files from a public 
+website or a sample dataset.
+Write a script or function to download the log files from the specified source.
+Parsing Log File Data:
+Implement a log file parser that reads the log file line by line and extracts relevant information from each entry.
+The parser should handle different log file formats (e.g., Common Log Format, Combined Log Format) and extract fields such as IP address, timestamp, requested resource, response status, and more.
+Data Aggregation and Analysis:
+Utilize the expressive power of the for loop in C to iterate over the parsed log data and perform various analytical tasks:
+Count the total number of requests and group them by response status (e.g., 200 OK, 404 Not Found).
+Identify the top requested resources (e.g., most popular pages or files).
+Track the number of requests over time and identify peak usage periods.
+Analyze the geographical distribution of clients based on IP addresses (you may need to use IP geolocation databases or APIs).
+Detect potential security threats or abnormal activity based on patterns in the log data.
+Data Visualization:
+Generate visual representations of the analyzed data, such as charts, graphs, or diagrams.
+You can use a library like gnuplot or matplotlib (if you're using Python for visualization) to create these visualizations.
+Reporting and Output:
+Present the analysis results in a structured and readable format, such as a text file or a well-formatted command-line output.
+Optionally, you could generate an HTML report with embedded visualizations for easier viewing.
+This project will require you to:
+
+Utilize the expressive power of the for loop in C to iterate over and manipulate related variables, such as timestamps, IP addresses, and request counts.
+Implement efficient data structures (e.g., arrays, linked lists, hash tables) to store and process the log data.
+Perform string manipulation and parsing tasks to extract relevant information from the log entries.
+Implement algorithms for data aggregation, filtering, and analysis.
+Integrate with external libraries or APIs for tasks like IP geolocation or data visualization.
+The project combines programming, data processing, analysis, and visualization aspects, making it an intermediate-level challenge that 
+will help you enhance your C programming skills and analytical thinking abilities.
