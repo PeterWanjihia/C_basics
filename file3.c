@@ -26,7 +26,7 @@ int main() {
         netPay = regPay + ovtPay;
         //make one name out of firstName and lastName
         strcpy(name,firstName); strcat(name," "); strcat(name,lastName);
-        fprintf(out, "%-15s %5.1f %6.2f", name, hours, rate);
+        fprintf(out, "%-25s %5.1f %6.2f", name, hours, rate);
         fprintf(out, "%9.2f %9.2f %7.2f\n", regPay, ovtPay, netPay);
         fscanf(in, "%s", firstName);
     }
