@@ -4,8 +4,11 @@ int scores[60];
 
 int main(){
 FILE * in = fopen("scores.txt", "r");
-for (int h = 0; h < 60; h++)
-fscanf(in, "%d", &scores[h]);
+for (int h = 0; h < 60; h++){
+    fscanf(in, "%d", &scores[h]);
+    printf("%d\n",scores[h]);
+
+}
 
 fclose(in);
 
