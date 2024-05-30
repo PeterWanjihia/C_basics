@@ -1,9 +1,0 @@
-Dynamic Memory Allocation: Pointers are essential for dynamically allocating memory in malware. 
-This allows malware to allocate memory at runtime for storing payloads, configuration data, or 
-encrypted communication channels. Dynamic memory allocation also enables malware to evade static 
-analysis by generating code and data structures dynamically.
-Function Pointers: Malware may utilize function pointers to implement polymorphic or self-modifying 
-code techniques. By dynamically resolving function addresses at runtime, malware can evade 
-signature-based detection and hinder reverse engineering efforts. Function pointers can also be
- used for code obfuscation and control flow obfuscation, making 
-malware analysis more challenging.
